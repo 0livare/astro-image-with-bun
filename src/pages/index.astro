@@ -1,0 +1,11 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { Image } from 'astro:assets';
+import catImg from '../images/cat.jpg'
+---
+
+<Layout title="Welcome to Astro.">
+	<main>
+		<Image src={catImg} alt="Cat" />
+	</main>
+</Layout>
